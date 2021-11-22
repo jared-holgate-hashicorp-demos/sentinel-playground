@@ -1,4 +1,4 @@
-policy "terraform-maintenance-windows" {
+policy "terraform-test-policy" {
   source            = "../polices/general/test-policy.sentinel"
   enforcement_level = "hard-mandatory"
 }
